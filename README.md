@@ -80,6 +80,9 @@ Note: The login tests require real user credentials or mock API data to pass com
 Through this assignment, I learned how to configure and integrate multiple workflow tools into one project, automate code quality checks before every commit, run and understand both unit and end-to-end tests, and maintain a clean and organized development process following modern best practices.
 
 ## Notes
+The provided Playwright test files (`login.spec.js` and `navigation.spec.js`) are part of the standard setup.  
+They were intentionally left unchanged, as their purpose is to demonstrate a correct Playwright configuration and execution.  
+These tests may show failures when no live server or environment variables are available, which is expected behavior for this type of workflow project.
 
 All tools were successfully installed, configured, and tested. The workflow is now fully functional and ready for continuous development or deployment.
 
